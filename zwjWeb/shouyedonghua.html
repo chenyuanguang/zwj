@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>css3样式环形星星发光动画效果 - 网站源码</title>
+</head>
+<style>
+html, body {
+				  height: 100%;
+			}
+
+			body {
+				  /*background: radial-gradient(ellipse at center,  #34679a 0%,#214163 47%,#0d1926 100%);*/
+          background: url("assets/i/app/fixedBg.png");
+          overflow: hidden;
+			}
+
+body > div { 
+  position: absolute; 
+  top: -385px; 
+  left: -141px; 
+  margin-left: -103px;
+  width: 2400px; 
+  height: 2400px; 
+  border-radius: 50%; 
+  /*border: 1px solid #fff;*/
+  -webkit-transform-style: preserve-3d; 
+  -webkit-transform: rotateX(80deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  transform: rotateX(69deg) rotateY(20deg);
+}
+
+/*body > div:first-of-type:after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transform: rotateX(-80deg) rotateY(0);
+  transform: rotateX(-80deg) rotateY(0);
+  box-shadow: 0 0 25px #fff;
+  -webkit-animation: nucleus_ 2s infinite linear;
+  animation: nucleus_ 2s infinite linear;
+  left: 50%;
+  top: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+}*/
+
+body > div:nth-of-type(1) {
+  -webkit-transform: rotateX(-69deg) rotateY(0deg);
+  transform: rotateX(-63deg) rotateY(0deg);
+}
+
+body > div > div {
+  width: 2400px;
+  height: 2400px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation: trail_ 5s infinite linear;
+  transform-style: preserve-3d;
+  animation: trail_ 5s infinite linear;
+}
+
+body > div > div:after {
+  /*display: none;*/
+  content: ""; 
+  position: absolute; 
+  top: -20px; 
+  box-shadow: 0 0 12px #fff;
+  left: 50%; 
+  margin-left: -5px; 
+  width: 200px; 
+  height: 50px; 
+  border-radius:50%;
+  background: url("assets/i/app/icon.png");
+ /* background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0));;
+  background:radial-gradient:(50% 50%,rgba(255,255,255,1),rgba(255,255,255,0));*/
+  /*radial-gradient:(50% 50%,circle cover,rgba(255,255,255,1),rgba(255,255,255,0));*/
+ /* -webkit-animation: particle_ 5s infinite linear;
+  animation: particle_ 5s infinite linear;*/
+ 
+}
+
+
+@-webkit-keyframes trail_ { 
+    from {
+        -webkit-transform: rotateZ(0deg);
+    } to {
+        -webkit-transform: rotateZ(360deg);
+    }
+}
+
+@keyframes trail_ { 
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes particle_ { 
+    from {
+        -webkit-transform: rotateX(90deg) rotateY(0deg); 
+        transform: rotateX(90deg) rotateY(0deg); 
+    } to {
+      -webkit-transform: rotateX(90deg) rotateY(-360deg);  
+        transform: rotateX(90deg) rotateY(-360deg); 
+    } 
+}
+
+
+@keyframes particle_ { 
+    from {
+        transform: rotateX(90deg) rotateY(0deg); 
+    } to { 
+        transform: rotateX(90deg) rotateY(-360deg); 
+    } 
+}
+
+/*@keyframes nucleus_ { 
+    0% {
+        box-shadow: 0 0 0 transparent;
+    } 50% { 
+        box-shadow: 0 0 25px #fff;
+    } 100% { 
+        box-shadow: 0 0 0 transparent;
+    }
+}
+
+@-webkit-keyframes nucleus_ { 
+    0% {
+        box-shadow: 0 0 0 transparent;
+    } 50% { 
+        box-shadow: 0 0 25px #fff;
+    } 100% { 
+        box-shadow: 0 0 0 transparent;
+    }
+}*/
+
+</style>
+<body>
+
+<div><div></div></div>
+<!-- <div><div></div></div>
+<div><div></div></div>
+<div><div></div></div> -->
+</body>
+</html>

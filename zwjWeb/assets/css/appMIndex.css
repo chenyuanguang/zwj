@@ -1,0 +1,140 @@
+/* Write your styles */
+body, html {
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	background: url('../i/app/allbg.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+.content {
+	width: 100%;
+	margin: auto;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.logonAll {
+	overflow: hidden;
+	margin: 0px;
+}
+
+.logonAll aside {
+	overflow: hidden;
+	float: left;
+	font-size: 1.2rem;
+	padding: 10px 0px;
+	/*background: wheat;*/
+	color: #cbba75;
+}
+
+.logonAll aside h3 {
+	margin: 0px;
+	float: left;
+	margin-right: 0.6rem;
+}
+
+.logonAll aside h3:nth-of-type(1) {
+	background: url(../i/app/phone.png) 0.4rem 0.4rem no-repeat;
+	padding-left: 2rem;
+}
+
+.logonAll aside h3:nth-of-type(2) {
+	background: url(../i/app/user.png) 0rem 0rem no-repeat;
+	padding-left: 2rem;
+	cursor: pointer;
+}
+
+.logonAll aside h3:nth-of-type(3) {
+	background: url(../i/app/book.png) 0rem 0.2rem no-repeat;
+	padding-left: 1.6rem;
+	width: 2rem;
+	height: 2rem;
+	cursor: pointer;
+}
+
+.logonAll aside h3:nth-of-type(4) {
+	background: url(../i/app/wechart.png) 0rem 0.4rem no-repeat;
+	padding-left: 1.6rem;
+	margin-right: 1rem;
+	width: 2rem;
+	height: 2rem;
+	cursor: pointer;
+}
+
+.logonAll aside .loginG em:nth-of-type(1) {
+	display: inline-block;
+	padding: 0px 0.5rem 0 0;
+	border-right: 0.2rem solid #cbba75;
+	margin: 0px;
+}
+
+.logonAll aside .loginG em:nth-of-type(2) {
+	display: inline-block;
+	padding: 0px 0.5rem;
+}
+
+.navPc {
+	color: #ffffff;
+	overflow: hidden;
+	display: none;
+}
+
+.am-menu {
+	display: block;
+}
+
+.logo {
+	display: none;
+}
+
+main {
+	/*display: none;*/
+	height: 30rem;
+	line-height: 30rem;
+	text-align: center;
+}
+
+main img {
+	width: 80%;
+}
+
+.mainText {
+	display: none;
+}
+
+.navCon {
+	float: right;
+	overflow: hidden;
+	margin: 0px;
+	padding: 2rem 0;
+}
+
+.navCon h5 {
+	font-size: 1.4rem;
+	text-align: center;
+	margin: 0;
+}
+
+.navCon li {
+	float: left;
+	height: 4rem;
+	padding: 0px 4rem;
+	cursor: pointer;
+}
+
+footer {
+	color: #ffffff;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-top: -4rem;
+}
+
+footer strong {
+	font-weight: lighter;
+}

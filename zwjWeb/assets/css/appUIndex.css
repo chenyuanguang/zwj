@@ -1,0 +1,2453 @@
+/* Write your styles */
+body,html{
+    width: 100%;
+    font-size: 125%;
+}
+/*�̶�����*/
+.fixbg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../i/app/fixedBg.png);
+    background-size: 100%;
+}
+/*�̶�����ͷ���˵�*/
+.conNavFixed{
+    /*margin-top: -1rem;*/
+    position: fixed;
+    top:6.5rem;
+    width: 100%;
+    z-index: 10;
+}
+/*����Ʒͷ��*/
+
+.allheader{
+    position: relative;height:20rem;z-index: 100
+}
+/*��������ͷ��*/
+.aboutUs ul{
+    padding-left: 13.5rem !important;
+    width: 60rem;
+}
+.content main{
+    padding: 3rem 0;
+}
+.navCon{
+    float: right;
+    overflow: hidden;
+    margin: 0px;
+    padding:1.5rem 0 0;
+}
+.navCon h5{
+    font-size: 0.7rem;
+    text-align: center;
+    margin:0;
+}
+.navCon li{
+    float: left;
+    height: 2rem;
+    padding:0px 1rem 0.5rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+.navCon>li>p{
+    /*position: absolute;*/
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    /*margin-bottom: 0;*/
+    width: 6rem;
+    top:4rem;
+    background: rgba(255,255,255,1);
+    color:gray
+    /*height: 0;*/
+}
+.navCon>li>p>span{
+    float: left;
+    width: 6rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size:0.7rem;
+    color: #333333;
+}
+.heightAuto{
+    height:12rem!important;
+    -webkit-transition:all 0.5s ease-in;
+}
+.heightAutoOut{
+    height:2rem !important;
+    -webkit-transition:all 0.5s ease-in;
+}
+.navCon li h5:nth-of-type(2){
+    padding-bottom: 0.4rem;
+    border-bottom: 0.1rem solid #f5d96c;
+    margin-bottom: 0.05rem;
+}
+.unIbg{
+    width: 100%;;
+    height: 20rem;
+    background: url(../i/app/allbg.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 17.5rem;
+}
+
+.unIbg img{
+    display: none;
+}
+.content{
+    width: 60rem;
+    /*height: 100%;*/
+    /*background: wheat;*/
+    margin:0 auto;
+    /*margin-top: -2.5rem;*/
+
+
+}
+.Bcontent{
+    /*height: 1000px;*/
+    background: url(../i/app/jianying1.png) no-repeat;
+    background-size: 100% 100%;
+    /*-webkit-mask-image:url(../i/app/mengban.png) ;*/
+    /*opacity: 0.5;*/
+    /*margin-top: -12.5rem;*/
+    z-index: 1;
+}
+.unIndex{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    /*opacity: 0.8;*/
+    z-index: 10;
+}
+.unHcon{
+    width: 60rem;
+    margin: auto;
+}
+.logonAll{
+    overflow: hidden;
+    margin: 0px;
+}
+.logonAll aside{
+    overflow: hidden;
+    float: right;
+    font-size: 0.6rem;
+    padding:10px 0px;
+    /*background: wheat;*/
+    color: #f5d96c;
+}
+.logonAll aside h3{
+    margin:0px;
+    float: left;
+    margin-right: 2rem;
+}
+.logonAll aside h3:nth-of-type(1){
+    background: url(../i/app/phone.png) 0px 4px no-repeat;
+    padding-left:1rem;
+}
+.logonAll aside h3:nth-of-type(2){
+    background: url(../i/app/user.png) 0px 0px no-repeat;
+    padding-left:1rem;
+    cursor: pointer;
+}
+.logonAll aside h3:nth-of-type(3){
+    background: url(../i/app/book.png) 0px 2px no-repeat;
+    padding-left:0.8rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+.logonAll aside h3:nth-of-type(4){
+    background: url(../i/app/wechart.png) 0px 4px no-repeat;
+    padding-left:0.8rem;
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+.logonAll aside .loginG em:nth-of-type(1){
+    display: inline-block;
+    padding: 0px 0.5rem;
+    border-right: 0.1rem solid #cbba75;
+    margin: 0px;
+}
+.logonAll aside .loginG em:nth-of-type(2){
+    display: inline-block;
+    padding: 0px 0.5rem;
+}
+.navPc{
+    color: white;
+    overflow: hidden;
+}
+.am-menu{
+    display: none;
+}
+.logo{
+    float: left;
+    background: url(../i/app/logo.png);
+    margin-top: 0.7rem;
+}
+.navCon{
+    float: right;
+    overflow: hidden;
+    margin: 0px;
+    padding:1rem 0;
+}
+.navCon h5{
+    font-size: 0.7rem;
+    text-align: center;
+    margin:0;
+}
+.defaultli{
+    border-bottom: 0.1rem solid #fedd6b;
+}
+.navCon li{
+    float: left;
+    height: 2.5rem;
+    padding:0px 0rem;
+    cursor: pointer;
+    width: 6rem;
+    margin: 0 0.5rem;
+}
+.conNav{
+    /*width: 100%;*/
+    height: 2.5rem;
+    /*background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.1) 100%); ;*/
+}
+.conNav ul{
+    overflow: hidden;
+    padding-top: 0.5rem;
+    padding-left:19rem;
+    margin:0;
+
+}
+.conNav ul li{
+    float: left;
+    width: 6rem;
+    height: 1.5rem;
+    /*border-right: 0.05rem solid white;*/
+    font-size:0.7rem ;
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    margin:0rem 1rem;
+    border-radius: 0.2rem;
+}
+.conNav ul label{
+    float: left;
+    width: 0.1rem;
+    height: 1rem;
+    background: white;
+    margin-top: 0.25rem;
+}
+.default{
+    background:#505153 ;
+    color: white;
+}
+.secCont{
+    overflow: hidden;
+    padding:3rem 0;
+    border-bottom: 1px solid #666666;
+}
+.secCont:nth-of-type(2n) .secContImg{
+    position: relative;
+    width: 50%;
+    height: 15rem;
+    float: right;
+}
+.secCont:nth-of-type(2n-1) .secContImg{
+    position: relative;
+    width: 50%;
+    height: 15rem;
+    float: left;
+}
+.arti{
+
+}
+.secCont:nth-of-type(2n) .secContText .artiem{
+    display: block;
+    text-align: right;
+    color:#f5d96c;
+    font-size: 0.9rem;
+}
+.secCont:nth-of-type(2n) .secContText .artispan{
+    display: block;
+    margin-top: 0px;
+    text-align: right;
+}
+.secCont:nth-of-type(2n-1) .secContText .artiem{
+    display: block;
+    text-align: left;
+    color:#f5d96c;
+    font-size: 0.9rem;
+}
+.secCont:nth-of-type(2n-1) .secContText .artispan{
+    display: block;
+    margin-top: 0px;
+    text-align: left;
+}
+.arti2n .artiem{
+    display: block;
+    text-align: right;
+    color:#f5d96c;
+}
+.arti2n .artispan{
+    display: block;
+    margin-top: 0px;
+    text-align: right;
+}
+.secContImg p{
+    position: absolute;
+    width:18rem;
+    height:11rem ;
+    border: 0.2rem solid #3b3b39;
+    left: 8rem;
+    top:0rem;
+}
+.secContImg img{
+    position: absolute;
+    width:18rem;
+    /*height:12rem ;*/
+    /*border: 0.1rem solid #3b3b39;*/
+    top:2rem;
+    left:6rem;
+}
+.allFixedCon section:first-of-type{
+    margin-top: 1.3rem;
+}
+.secCont:nth-of-type(2n) .secContText{
+    padding:2rem 0rem 0 6rem;
+    float: right;
+    width: 50%;
+    font-size: 0.7rem;
+    color:white ;
+}
+.secCont:nth-of-type(2n) .secContImg img{
+   left:4rem;
+}
+.secCont:nth-of-type(2n) .secContImg p{
+    left:6rem;
+}
+
+.secCont:nth-of-type(2n-1) .secContText{
+    padding:2rem 5rem 0 0rem;
+    float: left;
+    width: 50%;
+    font-size: 0.7rem;
+    color:white ;
+}
+footer{
+    background: #535353;
+    color: #ffffff;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-bottom:0rem;
+    margin-bottom:0rem;
+}
+footer strong{
+    font-weight: lighter;
+}
+/*�������??*/
+.hezuo{
+    padding:0;
+    margin:2rem auto 0;
+    overflow: hidden;
+    width: 50rem;
+}
+.hezuoEvery{
+    /*display: none;*/
+    float: left;
+    position: relative;
+    width:10rem;
+    height: 8rem;
+    border: 1px solid black;
+}
+.rato{
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: all 1s;
+}
+.hezuoEvery img{
+    position: absolute;
+    width: 10rem;
+    height: 8rem;
+}
+.hezuoEm{
+    display: none;
+    position: absolute;
+    width: 10rem;
+    height: 8rem;
+    background: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 0.6rem;
+    padding: 2.5rem 0.5rem 0 0.5rem;
+    line-height: 1rem;
+
+}
+.hezuoP{
+    position: absolute;
+    width: 10rem;
+    height: 8rem;
+    background: black;
+    opacity: 0.8;
+    margin:0;
+}
+
+/*����*/
+.secContZeRen{
+    padding:0;
+}
+.secContZeRen .secContImg{
+     width: 42%;
+ }
+.secContZeRen .secContText{
+    width: 58%;
+}
+.secContZeRen .secContText p{
+    line-height: 2rem;
+    margin-top: 1.5rem;
+}
+/*����*/
+.linianCon{
+    padding-top: 3rem;
+    margin-top: 0rem !important;
+}
+.linianCon em{
+    display: block;
+    /*width: 15rem;*/
+    font-size: 0.8rem;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+}
+.lininaPT{
+    padding-left: 3rem;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+.lininaPT li{
+    position: relative;
+    width: 13rem;
+    float: left;
+    margin: 0 2.5rem;
+}
+.lininaPT li img{
+    width: 13rem;
+    height: 12rem;
+}
+.lininaPT li div{
+    overflow: hidden;
+    position: absolute;
+    top:5.5rem;
+    left: 1.1rem;
+}
+.lininaPT li div:nth-of-type(1){
+    left: 20px;
+}
+.lininaPT li:nth-of-type(2) div{
+    left: 12px;
+}
+.lininaPT li:nth-of-type(3) div{
+    left: 29px;
+}
+.lininaPT li div span{
+    float: left;
+    /*display: inline-block;*/
+    width: 2.5rem;
+    height: 0.05rem;
+    background: white;
+    margin: 0.6rem 0.5rem;
+
+}
+.lininaPT li div b{
+    float: left;
+    color: white;
+    font-size: 0.8rem;
+}
+.lininaPT li em{
+    font-size: 0.7rem;
+    display: block;
+    height: 18rem;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    line-height: 2rem;
+    padding:1rem;
+}
+/*��֯�ܹ�*/
+ .zuzhiImg{
+    width: 39rem;
+    margin:5rem auto;
+    display: block;
+}
+/*����Ʒ*/
+.productBg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../i/app/detailsBg.png);
+    background-size: 100% 100%;
+}
+.producInfo{
+    width: 55rem;
+    /*height: 20rem;*/
+    padding:0;
+    margin: 0 auto;
+}
+.producInfo img{
+    width: 55rem;
+    width: 55rem;
+}
+.producCon{
+    position: relative;
+    padding-top:5.7rem;
+    min-height:915px;
+}
+.producInfo li{
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.producInfo li:nth-of-type(1) {
+    margin-top: 0;
+    /* margin-top: 1rem; */
+}
+.producInfo section{
+    height: 29rem;
+    position: absolute;
+    color:white;
+    top:5rem;
+    padding-top: 10rem;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.6) 20%,rgba(0,0,0,0.6) 100%);
+    -webkit-transition:all 0.5s ;
+}
+.producInfo section:hover{
+    top:-7rem;
+    -webkit-transition:all 1s ;
+}
+.content .allFixedCon{
+    padding-top:0rem;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+.producInfo b{
+    display: block;
+    font-size:1rem;
+    text-align: center;
+    background: url("../i/app/Mzhong.png") 274px 5px no-repeat;
+}
+.producInfo span{
+    display: block;
+    width: 8rem;
+    height: 0.1rem;
+    background: white;
+    margin: 1rem auto;
+}
+.producInfo p{
+    font-size: 0.7rem;
+    color: white;
+    line-height: 1.5rem;
+    padding:0 8rem;
+     text-align: center;
+}
+.producInfo button{
+    font-size: 0.7rem;
+   display:block;
+    width: 8rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.producInfo button:hover{
+   background: white;
+    color: #333333;
+}
+.footerAll{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/*��˾��ַ*/
+.addressH{
+    overflow: hidden;
+    margin-top:5rem;
+}
+.addressH ul{
+     float: left;
+     width: 50%;
+    color: white;
+ }
+.addressH ul li{
+    float: left;
+    width: 33%;
+    margin-bottom: 2rem;
+}
+.addressH ul li p{
+    width: 10rem;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.addressH ul li p b{
+    display:inline-block ;
+    width: 1.4rem;
+    height: 1.5rem;
+
+    vertical-align: middle;
+}
+.addressH ul li:nth-of-type(4){
+    width: 66%;
+}
+.addressH ul li:nth-of-type(1) b{
+    background:url(../i/app/iconAll1.png) 3px 5px no-repeat;
+}
+.addressH ul li:nth-of-type(2) b{
+    background:url(../i/app/iconAll1.png) -35px 6px no-repeat;
+}
+.addressH ul li:nth-of-type(3) b{
+    background:url(../i/app/iconAll1.png) -78px 6px no-repeat;
+}
+.addressH ul li:nth-of-type(4) b{
+    background:url(../i/app/iconAll1.png) -112px 6px no-repeat;
+}
+.addressH ul li:nth-of-type(5) b{
+    background:url(../i/app/iconAll1.png) -152px 6px no-repeat;
+}
+.addressH ul li em{
+    font-size: 0.6rem;
+    width: 10rem;
+    display: block;
+    padding-left:1.5rem;
+    color: #CCCCCC;
+}
+.addressH ul li:nth-of-type(4) em{
+    width: 17rem;
+}
+
+.addressH section{
+    float: left;
+    width: 50%;
+}
+.addressSide{
+    float: left;
+    width: 50%;
+    font-size: 0.6rem;
+    color: white;
+    overflow: hidden;
+    padding-left: 14rem;
+
+
+}
+.addressSide img{
+    width:6rem;
+    height: 6rem;
+    float: left;
+}
+.addressSide p{
+    margin: 0;
+}
+.addressSide i{
+    display: inline-block;
+    width:1rem;
+    height: 1.5rem;
+    background: url("../i/app/phoneIcon.png") 0px 3px no-repeat;
+    background-size: 90%;
+}
+.addressSide aside{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+}
+.addressSide mark{
+    color:#cbba75 ;
+    background: none;
+}
+.addressMap img{
+    width:55rem ;
+    display: block;
+    margin:auto;
+}
+/*��ҵ��Ѷ*/
+.industryDate{
+    float: left;
+    width: 4rem;
+    height: 5rem;
+    background: url("../i/app/datebg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.industryImg{
+    width: 20.5rem;
+    height: 12rem;
+    float: left;
+    margin: 0 2rem;
+}
+.industry .industryText{
+    padding: 0 !important;
+    width: 28rem !important;
+    color: white !important;
+}
+.industryText .artiem{
+    color: white !important;
+    font-size: 0.9rem !important;
+}
+.industryText p{
+    font-size: 0.7rem !important;
+    height: 5.5rem;
+}
+.detail{
+    overflow: hidden;
+}
+.detail button{
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+    float: left;
+    line-height: 1.5rem;
+    background: #f5d96c;
+    font-size: 0.6rem;
+    color:#333333;
+}
+.detail span{
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #99834c url("../i/app/jiantou-1.png") 5px 5px no-repeat;
+}
+.industryDate{
+    padding-top: 0rem;
+}
+.industryDate i{
+    display: block;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    font-size: 0.8rem;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+.industryDate b{
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+.newsNav ul{
+    padding-left: 21.5rem !important;
+}
+.industryText .artin em{
+    text-align: left !important;
+    font-weight: bold;
+}
+.contectFH ul{
+    padding-left: 23rem;
+}
+/*login*/
+.loginAllBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.content .loginCon{
+    overflow: hidden;
+    position:absolute;
+    right:0;
+    top:50%;
+    margin-top:-230px;
+}
+.loginL{
+    float: left;
+}
+.loginR{
+    float: right;
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.loginForm{
+}
+.lFHeard{
+    width: 16rem;
+    height: 2rem;
+    overflow: hidden;
+    border-bottom: 2px solid #d7d7d7;
+
+}
+.lFHeard h1{
+    font-size: 1rem;
+    color: #f5d96c;
+    float: left;
+}
+.lFHeard b{
+    font-size: 0.7rem;
+    color: white;
+    float: right;
+    margin-top: 0.7rem;
+    font-weight: normal;
+}
+.lFHeard a{
+    font-size: 0.7rem;
+    color: #f5d96c;
+    float: right;
+    margin-top: 0.7rem;
+}
+.lFSub p{
+    width: 16rem;
+    /*height: 2.5rem;*/
+    height: 2rem;
+    overflow: hidden;
+    background: white;
+    font-size: 0.7rem;
+    margin: 0.7rem 0;
+    border-radius: 3px;
+}
+.lFSub p label{
+    float: left;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
+}
+.lFSub p input{
+    height: 2rem;
+    width:12.5rem ;
+    /*margin:0.25rem 0 0 0;*/
+    border: none;
+    outline: none;
+}
+.lFSub p img{
+    width:5.5rem ;
+    height: 2rem;
+    float: right;
+}
+.lFSub p:nth-of-type(1) label{
+    background: url("../i/app/loginFbg.png") 8px 10px no-repeat;
+}
+.lFSub p:nth-of-type(2) label{
+    background: url("../i/app/loginFbg.png") 8px -56px no-repeat;
+}
+.lFSub p:nth-of-type(3) label{
+    background: url("../i/app/loginFbg.png") 10px -120px no-repeat;
+}
+.lFSub p:nth-of-type(3) input{
+    width: 9rem;
+}
+.lFSub button{
+    width: 16rem;
+    /*height: 2.5rem;*/
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background: #f5d96c;
+    font-size: 0.8rem;
+    color: #333333;
+    border-radius: 3px;
+}
+.loginBot{
+    width: 16rem;
+    font-size: 0.8rem;
+    overflow: hidden;
+    color: white;
+    margin:0.5rem 0 0 0;
+}
+.loginBotL{
+    float: left;
+}
+.loginBotR{
+    float: right;
+}
+.formBtm{
+    width:16rem ;
+    font-size: 0.6rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+.formBtm p{
+    margin-bottom: 0.5rem;
+}
+.blur {
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+
+    -webkit-filter: blur(2px); /* Chrome, Opera */
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+.footerLG{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*rigister*/
+.content .register{
+    padding-top: 1rem;
+    background-color: rgba(0,0,0,0.8);
+}
+.register nav{
+    overflow: hidden;
+    width: 50rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+}
+.register nav b{
+    float: left;
+    font-size: 1rem;
+    color: white;
+    margin-right: 0.5rem;
+    font-weight: normal;
+}
+.register nav span{
+    float: left;
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+.register nav a{
+    float: left;
+    font-size: 0.7rem;
+    color: #f5d96c;
+    margin-top: 0.2rem;
+
+}
+.register nav em{
+    float: right;
+    font-size: 0.7rem;
+    color: white;
+    margin-top: 0.2rem;
+
+}
+.registerForm{
+    font-size: 0.8rem;
+    color: white;
+    padding:1rem 0 0 15rem
+}
+.register li{
+    overflow: hidden;
+    margin:1rem 0
+}
+.registerForm li lable{
+    float:left;
+    width:5rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+.registerForm li input{
+    float: left;
+    font-size: 0.7rem;
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    color: grey;
+    border-radius: 3px;
+}
+.registerForm li i{
+    float: left;
+    width: 2rem;
+    height: 2rem;
+}
+.no_show{
+	background: url("../i/app/tanhao.png") 10px 10px no-repeat;
+}
+.ok_show{
+	background: url("../i/app/inputOk.png") 10px 10px no-repeat;
+}
+
+
+.registerForm li em{
+    float: left;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    width: 14.5rem;
+}
+.registerForm li:nth-of-type(8) img{
+        width: 90px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 3px;
+}
+.registerForm li em mark{
+    background: none;
+    color:#f5d96c ;
+    font-size: 0.7rem;
+}
+.registerForm .RequiredIcon{
+    color:#ff6666 ;
+    display: inline-block;
+    width: 0.8rem;
+    /*height: 2rem;*/
+    /*line-height: 2rem;*/
+    text-align: left;
+}
+.registerForm .registerYZ{
+    width:9.5rem ;
+}
+.registerForm .registerYZI{
+    width:5rem ;
+    height: 2rem;
+    float: left;
+    margin-left: 0.5rem;
+}
+.registerForm .registerPhoneYZ{
+    width:9.5rem ;
+
+}
+.registerForm .sendRGYZ{
+    width:5rem ;
+    height: 2rem;
+    float: left;
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    background: #f5d96c;
+    color: black;
+    border-radius: 3px;
+}
+.registerForm .clause {
+    width: 21.5rem;
+    font-size: 0.6rem;
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+}
+.registerForm .clause input{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: right;
+}
+.registerForm .clause span{
+
+    float: right;
+}
+.registerForm .clause a{
+   color:#00ffd8 ;
+    float: right;
+}
+.registerForm .subm{
+    width: 21rem;
+    font-size: 0.8rem;
+}
+.registerForm .subm button{
+    width: 15rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333333;
+    border-radius: 3px;
+    background:#f5d96c ;
+    float: right;
+}
+.registerForm .Nsubm{
+    width: 21rem;
+    font-size: 0.8rem;
+}
+.registerForm .Nsubm button {
+    width: 15rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    background:none ;
+    float: right;
+}
+/*registerSucsess*/
+.content .registerSucsess{
+    padding-top: 7rem;
+    color: white;
+    font-weight: lighter !important;
+}
+.registerSucsess h1{
+    width: 14rem;
+    height: 10rem;
+    background: url("../i/app/sucsess.png") 80px 0px no-repeat;
+    padding-top: 7rem;
+    font-size: 1rem;
+    margin: 0 auto;
+    font-weight: normal;
+    text-align: center;
+}
+.registerSucsess h2{
+    width: 25rem;
+   text-align: center;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.registerSucsess h3{
+    width: 24rem;
+   overflow: hidden;
+    font-size: 0.8rem;
+    margin: 2rem auto 0;
+    font-weight: normal;
+}
+.registerSucsess h3 button{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.7rem;
+    float: left;
+    background: #f5d96c;
+    color: #333333;
+    border-radius: 3px;
+}
+.registerSucsess h3 button:nth-of-type(2){
+    float: right;
+}
+/*resetPassword*/
+.retrievePForm{
+    font-size: 0.8rem;
+    color: white;
+    padding: 5rem 0 0 13rem;
+}
+.retrievePForm li lable{
+    width: 7rem;
+}
+.retrievePForm .subm{
+    width: 23rem;
+    margin-top: 5rem;
+}
+.retrievePForm .Nsubm{
+    width: 23rem;
+    /*margin-top: 5rem;*/
+}
+.retrievePForm li em{
+    line-height: 2rem;
+}
+/*retrievePassword*/
+.retrievePForm .retrieveSubm{
+    margin:3rem 0 2rem
+}
+.retrievePForm .retrieveNotice{
+    width: 18rem;
+    font-size: 12px;
+    margin-left: 6.5rem;
+}
+.retrievePForm .retrieveNotice p{
+    margin-bottom: 1rem;
+}
+.retrievePForm .retrieveNotice b{
+    font-weight: normal;
+}
+/*��������ɹ�??*/
+.resetPSucsess .resetPlogin{
+    margin-left: 7rem;
+}
+/*clause*/
+.clauseCon{
+    padding-top: 7rem !important;
+}
+.clauseDiv{
+    width:37rem ;
+    margin: 0 auto;
+    height:490px;
+    /*border: 1px solid white;*/
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 2rem;
+    overflow: auto;
+}
+.clauseDiv::-webkit-scrollbar-button{
+      display: none;
+  }
+.clauseDiv::-webkit-scrollbar{
+    width: 2px;
+    background: white;
+    margin-right: 3px;
+}
+
+.clauseDiv::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 20px;
+    background: red;
+}
+.scrollSpace{
+    width:38rem ;
+    margin: 0 auto;
+    height:500px;
+    border: 1px solid white;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+    overflow: auto;
+    border-radius: 5px;
+}
+.scrollSpace::-webkit-scrollbar{
+    display: none;
+}
+.clauseCon section{
+    width: 25rem;
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin: 1rem auto 0;
+    font-weight: normal;
+}
+.clauseCon section button{
+    width: 10rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.7rem;
+    float: left;
+    background:white;
+    color: black;
+}
+.clauseCon section button:nth-of-type(2){
+    float: right;
+}
+.questionnaire{
+    background: white;
+}
+.questionnaire .unIndex{
+    border-bottom: 2px solid #f3f3f3;
+    background: white;
+}
+.questionnaire .navPc{
+    color: black;
+
+}
+.questionnaireCon{
+    color:#666666;
+    background: none !important;
+}
+
+.questionnaireCon .head h1{
+    font-size: 1rem;
+    text-align: center;
+    margin:2rem;
+    color: black;
+    font-weight: bold;
+}
+.questionnaireCon .head h5{
+     font-size: 0.7rem;
+     /*text-align: center;*/
+     color:#660000 ;
+     font-weight: normal;
+    margin:1rem 0;
+ }
+.questionnaireCon .head h3{
+    font-size: 0.7rem;
+    /*text-align: center;*/
+    color:black ;
+    font-weight: normal;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 1.5rem 0;
+    margin:1rem 0;
+}
+.questionnaireCon .head h3 lable{
+     width: 5rem;
+     float: left;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+ }
+.questionnaireCon .head h3 p{
+    width:53rem;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+}
+.questionnaireCon .head h4{
+    font-size: 0.7rem;
+    /*text-align: center;*/
+    color:black ;
+    font-weight: normal;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    padding: 1rem 0;
+}
+.questionnaireCon .head h4 lable{
+    width: 10rem;
+    float: left;
+    font-size: 0.9rem;
+    /*text-align: center;*/
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+.questionnaireCon .head h4 p{
+    width:60rem;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+}
+.questionnaireCon .con h1{
+    text-align: center;
+    font-size: 1rem;
+    color:#666666;
+    margin: 3rem 0;
+}
+.questionnaireCon .con aside{
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 1rem;
+}
+.questionnaireCon .con aside span{
+    font-size: 0.8rem;
+}
+.questionnaireCon .con aside ul{
+    overflow: hidden;
+    margin:0.5rem 0;
+}
+.questionnaireCon .con aside input{
+    margin:0 5px;
+}
+.questionnaireCon .con aside li{
+    float: left;
+    width: 11rem;
+}
+.questionnaireCon .con aside:nth-of-type(6) li{
+    float: left;
+    width: 28rem;
+}
+.questionnaireCon .con aside:nth-of-type(9) li{
+    float: left;
+    width: 28rem;
+}
+.questionnaireCon .con aside:nth-of-type(10) li{
+    float: left;
+    width: 28rem;
+}
+.questionnaireCon .con aside:nth-of-type(13) li{
+    float: left;
+    width: 28rem;
+}
+.questionnaireCon .con aside label{
+    font-weight: normal;
+    vertical-align: text-top;
+}
+.questionnaireCon .subm{
+    display: block;
+    width: 15rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333333;
+    border-radius: 3px;
+    background: #f5d96c;
+    margin: 5rem auto;
+    font-size: 0.8rem;
+}
+.questionnaireCon .guize h1{
+    font-size:1rem ;
+}
+.questionnaireCon .guize h2{
+    font-size:0.8rem ;
+}
+.questionnaireCon .guize h3{
+    font-size:0.8rem ;
+    font-weight: normal;
+}
+/*������*/
+.questionRCon img{
+    display: block;
+    width: 14rem;
+    margin: 0 auto;
+}
+.questionRCon section:nth-of-type(1){
+    font-size: 0.8rem;
+    width: 40rem;
+    margin: -1rem auto 1rem;
+}
+.questionRCon section:nth-of-type(3){
+    margin-top:1rem;
+
+}
+.questionRCon section:nth-of-type(3) button{
+    font-size: 0.7rem;
+    width: 14rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background: #f5d96c;
+    color: #333333;
+    margin: 0 auto;
+    display: block;
+}
+.questionRCon section:nth-of-type(1) h3{
+    text-align: center;
+}
+.questionRCon section:nth-of-type(1) h4{
+    text-align: center;
+}
+.questionRCon section:nth-of-type(2) h2{
+    font-size: 1rem;
+    text-align: center;
+
+}
+.questionRCon section:nth-of-type(2) h5{
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: normal;
+}
+.questionRFoot{
+    position: fixed;
+    bottom: 0;
+}
+.content .questionRCon{
+    padding-top: 6rem;
+}
+.content .questionRCon mark{
+    display: inline-block;
+    width: 3rem;
+    border-bottom: 1px solid #c20000;
+    background: none;
+    color: #c20000;
+}
+.content .joinUsCon{
+    color: white;
+    padding:3rem 4rem;
+}
+.joinUsCon>h1{
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.joinUsCon section{
+    margin-bottom: 1rem;
+    max-height: 31px;
+    overflow: hidden;
+}
+.joinUsCon section h2{
+    font-size: 0.7rem;
+    overflow: hidden;
+    border-bottom: 1px solid #f5d96c;
+    line-height: 1.5rem;
+}
+.joinUsCon section h2 span{
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #f5d96c;
+    margin:0 0.5rem;
+    margin-top: 0.5rem;
+}
+.joinUsCon section h2 b{
+    float: left;
+    font-weight: normal;
+    color:white;
+}
+.joinUsCon section h2 i{
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../i/app/show.png") 3px 6px no-repeat;
+}
+.joinUsCon section h2 em{
+    float: right;
+    color: #f5d96c;
+}
+.joinUsCon section h2{
+    font-size: 0.7rem;
+    overflow: hidden;
+    /*background:  #f5d96c;*/
+    line-height: 1.5rem;
+
+    margin: 0;
+}
+.joinUsCon .xshow{
+    background:#f5d96c;
+    -webkit-transition: all 2s;
+}
+.joinUsCon .xhid{
+    background:none;
+    -webkit-transition: all 2s;
+}
+
+.joinUsCon .xshow b{
+    float: left;
+    font-weight: normal;
+    color: black;
+    /*margin-left: 1.5rem;*/
+}
+.joinUsCon .xshow i{
+    float: right;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("../i/app/hid.png") 3px 6px no-repeat;
+}
+.joinUsCon .xshow em{
+    float: right;
+    color: black;
+}
+.joinUsCon .jUCON{
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    font-size: 0.7rem;
+    color: white;
+    font-weight: normal;
+}
+.joinUsCon section div aside:nth-of-type(1){
+    float: left;
+    width: 50%;
+    padding:1rem
+}
+.joinUsCon section div aside:nth-of-type(2){
+    float: left;
+    width: 50%;
+    padding:1rem
+
+}
+.jUCON h3{
+    font-weight: normal;
+    margin: 0.5rem;
+}
+.jUCON h4{
+    margin: 0;
+    font-weight: normal;
+}
+.joinUsCon section{
+
+}
+.xqshow{
+    max-height: 15rem !important;
+    /*background: #f5d96c !important;*/
+    -webkit-transition: all 1s;
+}
+.xqhid{
+    max-height: 31px !important;
+    /*background: none !important;*/
+    -webkit-transition: all 1s;
+}
+.joinUsBg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../i/app/joinUsBg.png) no-repeat;
+    background-size: 100% 150%;
+}
+.jUCONB {
+    margin: 2rem 0;
+}
+.jUCONB h3{
+   font-size: 0.8rem;
+    color: #cbba75;
+    margin-bottom: 1rem;
+}
+.jUCONB h4{
+    font-size: 0.7rem;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.5rem;
+}
+/*���������˻�����*/
+.personalCent{
+    position: fixed;
+    background: url("../i/app/personalbg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.blackbg{
+    max-height:4.5rem;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-transition: all 1s;
+}
+.nonebg{
+    max-height:10rem;
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: all 1s;
+}
+.blackL{
+    padding: 0;
+    -webkit-transition: all 1s;
+}
+.blackH{
+    padding: 1rem 0;
+    -webkit-transition: all 1s;
+}
+.logoL{
+     margin-top: -15px !important;
+     -webkit-transition: all 1s;
+ }
+.logoH{
+    margin-top: 0px !important;
+    -webkit-transition: all 1s;
+}
+.content .personalCentCon{
+    overflow: hidden;
+    /*padding-top:5.8rem !important;*/
+    padding-bottom: 1.5rem !important;
+    background:none;
+    border-radius: 0px;
+}
+.PCentL{
+    width: 13rem;
+    /*height: 19rem;*/
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    padding:0;
+    margin:0;
+}
+.PCentR {
+    width: 46.5rem;
+    /*height: 19rem;*/
+    float: right;
+    background-color:rgba(255,255,255,0.6) ;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+    min-height: 35.5rem;
+}
+.PCentL section:nth-of-type(1){
+    height:19rem ;
+    background-color: rgba(0,0,0,0.7);
+    margin-top:0rem;
+    border-radius:5px;
+}
+.PCentL section:nth-of-type(1) p{
+    height: 2.5rem;
+    margin:0;
+    padding: 0;
+}
+.PCentL section:nth-of-type(1) div{
+    height: 10rem;
+    margin:0;
+    padding: 0;
+}
+.PCentL section:nth-of-type(1) h2{
+        font-size: 0.8rem;
+        text-align: center;
+        height: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+    margin:0.25rem 0;
+    padding: 0;
+
+}
+.PCentL section:nth-of-type(1) h3{
+    font-size: 0.6rem;
+    text-align: center;
+    color: #999999;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin:0.5rem 0;
+    padding: 0;
+}
+.PCentL section:nth-of-type(1) h4{
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin:0;
+    padding: 0;
+}
+.secondCon{
+    height: 14rem;
+    background-color: rgba(0,0,0,0.7);
+}
+.PCentL section:nth-of-type(2) {
+    margin:0.5rem 0;
+    /*height:16rem ;*/
+    color: #999999;
+}
+.PCentL section:nth-of-type(2) h1,.PCentL section:nth-of-type(3) h1{
+    font-size: 0.8rem;
+    color: white;
+    height: 2rem;
+    line-height: 2rem;
+    padding:0 0 0 1rem;
+    margin: 0;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+.PCentL section:nth-of-type(2) li{
+    padding-top:1rem;
+    padding-left: 1rem;
+    overflow: hidden;
+}
+.PCentL section:nth-of-type(2) h2{
+    font-size: 0.7rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin:0;
+}
+.defaultNone{
+    display: none;
+}
+.PCentL section:nth-of-type(2) h3{
+    font-size: 0.7rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+.PCentL section:nth-of-type(2) mark{
+    /*font-size: 0.7rem;*/
+   color:#f5d96c;
+    background: none;
+    float: left;
+}
+.PCentL section:nth-of-type(2) span{
+    width: 4.5rem;
+    color:#999999;
+    float: right;
+}
+.PCentL section:nth-of-type(2) h3 span{
+    width: 1.5rem;
+    cursor:pointer;
+}
+.PCentL section:nth-of-type(2) b {
+    float: right;
+    width: 1rem;
+    height: 1.5rem;
+    background: url("../i/app/PcentI.png") -20px 8px no-repeat;
+    margin-right: 0.5rem;
+}
+.PCentL section:nth-of-type(2) ul{
+     padding:0;
+     margin:0;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:5px;
+    padding-bottom: 0.7rem;
+}
+.PCentL .aqdj lable{
+   font-size: 0.7rem;
+    float: left;
+}
+.PCentL .aqdj p{
+    font-size: 0.7rem;
+    float: left;
+    overflow: hidden;
+    margin: 0.5rem 0.2rem;
+}
+.PCentL .aqdj p i{
+    font-size: 0.7rem;
+    float: left;
+    width: 1rem;
+    height: 0.2rem;
+    background: #34373c;
+    margin:0 0.05rem 0 0;
+}
+
+.PCentL .aqdj p i:nth-of-type(1) {
+    border-radius: 1rem 0 0 1rem;
+    background: #f8b551;
+}
+.PCentL .aqdj p i:nth-of-type(2) {
+    /*border-radius:0 1rem 1rem 0;*/
+    background: #80c269;
+}
+.PCentL .aqdj p i:nth-of-type(3) {
+    border-radius:0 1rem 1rem 0;
+    /*background: #80c269;*/
+}
+
+.PCentL .aqdj em{
+    font-size: 0.6rem;
+    float: left;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.PCentL .aqdj span{
+    width: 5rem !important;
+    font-size: 0.7rem;
+    float: right;
+    text-align: right;
+}
+.PCenthead{
+    overflow: hidden;
+}
+.PCenthead span{
+    float: left !important;
+    color: white !important;
+}
+.PCenthead .zhankai{
+    float: right;
+    font-style: normal;
+}
+.PCenthead em{
+    float: right;
+    -webkit-transform:scaleX(1.5) rotate(90deg) ;
+    /*-webkit-transform:;*/
+    margin-right: 0.5rem;
+}
+.PCenthead b{
+    float: right;
+    width: 1.7rem !important;
+    font-weight: normal;
+    font-size: 0.7rem;
+    background: none !important;
+    margin-right: 0 !important;
+}
+.PCentL section:nth-of-type(3) h1{
+    margin:0;
+}
+.PCentR nav{
+    font-size: 0.8rem;
+    color: white;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding:0 0 0 3rem;
+    margin: 0;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+.PCentR p{
+    font-size:0.7rem ;
+    float: left;
+    width:6.5rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+       color: white;
+    text-align: center;
+    margin: 0.4rem 0.2rem;
+    border-radius: 5px;
+}
+.PCentRdefault{
+    background:#565959;
+}
+.PCCont{
+    padding-top:1rem
+}
+.PCCont section{
+    overflow: hidden;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right:2rem;
+    background: white;
+    border-radius: 5px;
+    padding:0.5rem 0rem 0 0rem
+}
+.PCCont section aside{
+    float: left;
+    width: 50%;
+
+}
+.PCCont section aside h3{
+    font-size: 0.8rem;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 2rem;
+}
+.PCCont section aside h4{
+    font-size: 1.5rem;
+    /*font-weight: bold;*/
+    height: 3rem;
+    line-height: 3rem;
+    color: #999999;
+}
+/*�ѹ���Ʒ*/
+.AlreadyB section h1{
+    font-size: 0.8rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin:0 0.5rem;
+}
+.AlreadyB section h1 mark{
+    background: none;
+    display: inline-block;
+    width: 5rem;
+    color:#4dbfdb ;
+}
+.AlreadyB .fudong h1 mark {
+    color:#c9a03e;
+}
+.AlreadyB .guding{
+    max-height: 76px;
+    -webkit-transition: all 1s;
+}
+.AlreadyB .guding h2{
+    overflow: hidden;
+    font-size: 0.7rem;
+    color:#999999 ;
+    margin:0 0.5rem;
+
+}
+.AlreadyB .guding h2 span{
+    float: left;
+    padding-left: 1rem;
+}
+.AlreadyB .guding h2 p{
+    width: 6rem;
+    float: right;
+    color: #999999;
+    font-size: 0.7rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin:0;
+}
+.AlreadyB .guding h2 p em{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: sub;
+    background: url("../i/app/SFBTN.png") 4px 4px no-repeat;
+
+}
+.AlreadyB .guding h3{
+    overflow: hidden;
+    margin:0.5rem 0.5rem;
+}
+.AlreadyB .fudong h3 {
+    height: 10rem;
+}
+.AlreadyB .guding h3 p{
+    float: left;
+    width:5rem ;
+    font-size: 0.6rem;
+    color: #4dbfdb;
+    line-height: normal;
+    height: auto;
+}
+.AlreadyB .guding h3 p span{
+    display: block;
+    line-height: 1.5rem;
+}
+.AlreadyB .guding h3 div{
+    float: left;
+    width: 35rem;
+    height: 6rem;
+    /*background: lime;*/
+}
+.gudingTu{
+    overflow: hidden;
+    padding:0px;
+    margin:0px;
+    position: relative;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+}
+.gudingTu li{
+    float: left;
+    overflow: hidden;
+    /*position: relative;*/
+}
+.gudingTu li:nth-of-type(1){
+    position: absolute;
+    top:10px;
+    width: 100px;
+    height: 50px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    border: 1px solid black;
+    left:60px;
+    display:none;
+    text-align: center;
+}
+.gudingTu li span{
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background:#edf9fb;
+}
+.gudingTu li span b{
+    display: block;
+    background: white;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+.gudingTu li em{
+    float: left;
+    width: 100px;
+    height: 0.25rem;
+    background:#edf9fb ;
+    margin-top: 0.4rem;
+}
+.gudingTu li i{
+    /*position: absolute;*/
+    float: left;
+    width: 40px;
+    height: 0.25rem;
+    background:#4dbfdb ;
+    margin-top: 0.4rem;
+}
+.AlreadyB .guding h4{
+    overflow: hidden;
+    border-top: 1px solid #CCCCCC;
+
+}
+.AlreadyB .guding h4 aside{
+    float: left;
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+.AlreadyB .guding h4 aside:nth-of-type(1) {
+    width: 11rem;
+}
+.AlreadyB .guding h4 aside p{
+    text-align: center;
+    font-size: 0.6rem;
+    float: none;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    color: #666666;
+}
+.AlreadyB .guding h4 aside p:nth-of-type(1){
+    margin-top:1rem
+}
+.AlreadyB .guding h4 aside b{
+    display: block;
+    text-align: center;
+    font-size: 0.6rem;
+
+}
+.AlreadyB .guding h4 aside:first-of-type{
+    border-left: none;
+}
+
+.wenjuan{
+    float: left;
+    margin: 0.8rem;
+    padding: 0rem 1rem;
+    border-left: 2px solid black;
+}
+.PCentR .producInfo{
+    width: auto;
+}
+.PCentR .seczuo{
+    margin-top: 2rem;
+}
+.PCentR .producInfo img{
+    width: 840px;
+    display: block;
+    margin: 0 auto;
+}
+.PCentR .producInfo section{
+    left: 45px;
+    width: 840px;
+}
+.PCentR .producInfo section p{
+    font-size: 0.7rem;
+    color: white;
+    line-height: 1rem;
+    padding: 0 4rem;
+    float: none;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin:0 ;
+    border-radius: 0;
+}
+.PCentR .producInfo section span{
+    margin:1rem auto;
+}
+
+/*ԤԼ��Ʒ*/
+.yuyue2{
+    padding:0;
+    overflow:hidden;
+}
+
+.yuyue2 section{
+    position: relative;
+    float: left;
+    width: 400px ;
+    height: 231px;
+    margin-top:1rem !important;
+    margin-left:2rem
+}
+
+.yuyue2 section img{
+    width: 400px;
+    height:231px;
+}
+
+
+.yuyue2 section span{
+    width: 400px ;
+    height: 231px;
+    position: absolute;
+    left: 0;
+    top:0;
+    font-size: 0.7rem;
+    color: white;
+    line-height: 230px;
+    text-align: center;
+    cursor: pointer;
+}
+.yuyuezhong{
+    background: url(../i/app/yuyuezhong.png) 0px 0px no-repeat;
+}
+/*��Ա�*/
+.memberAct{
+    padding-right: 2.5rem;
+}
+.memberAct li{
+    margin:1rem 0;
+}
+.memberAct img{
+    width:40rem;
+    display:block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/*��������*/
+.content .newsDetails{
+    /*padding-top: 5.8rem !important;*/
+    /*padding-bottom: 1.5rem !important;*/
+}
+.content .newsDetails .newsDetailsCon{
+    /*background: rgba(0,0,0,0.6);*/
+    padding:1rem 3rem 3rem;
+}
+.content .newsDetails .newsDetailsCon .secContText{
+   padding:0rem 0 0 0;
+    width: 24.5rem;
+    float: left;
+}
+/*.content .newsDetails .newsDetailsCon{*/
+    /*/!*background: rgba(0,0,0,0.6);*!/*/
+    /*padding:3rem 5rem;*/
+/*}*/
+.newsDetailsCon h1{
+  overflow: hidden;
+    padding-top: 3rem;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "΢���ź�";
+}
+.newsDetailsCon .headerBTN{
+    float: left;
+    line-height: 3rem;
+    height: 3rem;
+    width: 3rem;
+    text-align: right;
+    background: url("../i/app/goback.png") 3px 22px no-repeat;
+    color: white;
+    font-size: 0.8rem;
+}
+.newsDetailsCon h1 lable {
+    float: left;
+    line-height: 3rem;
+    height: 3rem;
+    margin-left: 7rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 32rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.newsDetailsCon h2{
+    overflow: hidden;
+}
+.newsDetailsCon h2 span{
+    font-size: 0.6rem;
+    color: white;
+    float: left;
+    margin-left: 19rem;
+}
+.newsDetailsCon h2 b{
+    font-size: 0.6rem;
+    color: white;
+    float: left;
+    margin-left: 3rem;
+    font-weight: normal;
+}
+.detailsbg{
+    position: fixed;
+    background: url("../i/app/personalbg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+/*��Ϣ��¶���ε��??*/
+.mikclik{
+    top: -9rem !important;
+    -webkit-transition: all 1s !important;
+}
+.mikclikPW{
+    margin-top:2rem;
+    -webkit-transition: all 1s !important;
+
+}
+.productPassW{
+    width: 14rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2.5rem;
+}
+.productMisk{
+    /*margin-top: 3rem;*/
+    width: 14rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.productPassW input{
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    float: left;
+    padding-left: 0.5rem;
+    color: #333333;
+}
+.productPassW button{
+    width: 3rem;
+    height: 1.5rem;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 1.5rem;
+    float: right;
+
+}
+.detailsBg{
+    position: fixed;
+    background: url("../i/app/detailsBg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.EditorLayer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    color: white;
+    font-size: 0.7rem;
+    display: none;
+}
+.EditorLayer1{
+    display: none;
+}
+.EditorLayer section{
+    margin:340px auto 0;
+    width: 600px;
+    height: 500px;
+    /*background: red;*/
+}
+.EditorLayer section lable{
+    display: inline-block;
+    width: 7rem;
+}
+.EditorLayer input{
+     margin-left: 1rem;
+     height: 2rem;
+     padding-left: 2rem;
+     width: 20rem;
+     color:#333333;
+ }
+.EditorLayer li:nth-of-type(2) input{
+     width: 13rem;
+ }
+.EditorLayer li:nth-of-type(2) button{
+    width: 6rem;
+    margin-left: 1rem;
+    background: #f5d96c;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.EditorLayer2 li:nth-of-type(2) button{
+    margin-left: 0;
+
+}
+.EditorLayer2 li:nth-of-type(2){
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+.EditorLayer2 li:nth-of-type(3){
+    margin-left: 7rem;
+}
+
+.EditorLayer li:nth-of-type(3){
+    margin-top: 3rem;
+}
+.secdinput{
+    display: none;
+}
+.EditorLayer li:nth-of-type(5){
+    margin-top: 2rem;
+}
+.EditorLayer li:nth-of-type(3) button{
+    display: block;
+    width: 8rem;
+    margin:0 auto;
+    background: url("../i/app/btnbg.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.EditorLayer li:nth-of-type(4) button{
+    display: block;
+    width: 6rem;
+    margin: 0 auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.EditorLayer li{
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.EditorLayer .firstinput3 li:nth-of-type(1){
+   margin-left: -3.5rem;
+}
+.EditorLayer .firstinput3 li:nth-of-type(2){
+    margin-left: -3.5rem;
+}
+.EditorLayer3{
+    display: block;
+}
+.EditorLayer3 section:nth-of-type(1) img{
+    display: block;
+    margin: 0 auto;
+}
+.inputOK3 ul{
+    /*padding-left: 8rem;*/
+}
+.EditorLayer3 section:nth-of-type(1){
+   height: auto;
+    margin-top:10.5rem;
+}
+.EditorLayer3 section:nth-of-type(2){
+   margin-top: 0;
+}
+.EditorLayer3 section:nth-of-type(2) lable{
+    width: 3rem;
+}
+.inputOK img{
+    margin: 0 auto;
+    display: block;
+}
+/*�������Ƕ��θ��??*/
+.aboutUsCon{
+    position: relative;
+    padding-top: 23rem;
+}
+.aboutUsCon .conNav ul{
+    padding-left: 124px;
+}
+.aboutUsCon .conNav ul li{
+    /*width: 7.9rem;*/
+}
+.aboutUsBg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../i/app/aboutUsBg.png);
+    background-size: 100% 100%;
+}
+.logoM img{
+    width: 9.5rem;
+}
+.secContImg1{
+    width: 45% !important;
+    margin-left: 1rem;
+}
+.secContText1{
+    width: 52% !important;
+
+}
+.hezuo section:first-of-type{
+    margin-top: 0rem;
+}
+.rgtOK{
+    background: rgba(0,0,0,0.7);
+    width: 30rem;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.resetOKdiv{
+    background: rgba(0,0,0,0.7);
+    width: 30rem;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.newsDetailsCon .headerBTN{
+    float: left;
+    line-height: 3rem;
+    height: 3rem;
+    width: 3rem;
+    text-align: right;
+    background: url("../i/app/goback.png") 3px 22px no-repeat;
+    color: white;
+    font-size: 0.8rem;
+}
+.seczuo section{
+    top:0.5rem
+}
+/*ͨ�õ�����ʽ*/
+.popup{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    display: block;
+}
+.popup div{
+    background: white;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: normal;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    border-radius: 3px;
+    padding: 20px;
+}
+.popup div h4 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+    min-height: 80px;
+    font-weight: normal;
+
+}
+.popup div h3{
+    overflow: hidden;
+}
+.popup div h3 button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    background: #f5d96c;
+    color: #333333;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+.popup div h3 button:nth-of-type(1){
+    float: left;
+}
+.popup div h3 button:nth-of-type(2){
+    float: right;
+}
