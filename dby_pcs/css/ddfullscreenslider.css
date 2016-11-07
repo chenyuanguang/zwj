@@ -1,0 +1,174 @@
+html.fssopen, html.fssopen body{ /* class added to HTML element when full screen slider is open to hide potential body scrollbars */
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+  margin: 0;
+	overflow: hidden;
+}
+
+section.dd_fullscreenslider{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+  z-index: 2000;
+	font-size: 16px; /* base font size */
+	visibility: visible;
+	overflow: hidden;
+}
+
+div.slidewrapper{ /* wrapper DIV that surrounds the ARTICLE elements inside .dd_fullscreenslider */
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-moz-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-ms-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-o-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-webkit-transition: -webkit-transform 0.5s; /* actual duration controlled by script */
+	-moz-transition: -moz-transform 0.5s; /* actual duration controlled by script */
+	-ms-transition: -ms-transform 0.5s; /* actual duration controlled by script */
+	-o-transition: -o-transform 0.5s; /* actual duration controlled by script */
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	-ms-transition: -ms-transform 0.5s;
+	-o-transition: -o-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+ul.fssnav{ /* UL list dynamically added by script for Slider navigation */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+	position: fixed;
+	top: 50%; /* vertically center menu */
+	right: 20px; /* distance from right edge of screen */
+	transform: translateY(-50%); /* vertically center menu */
+	-webkit-transform: translateY(-50%); /* vertically center menu */
+	-moz-transform: translateY(-50%); /* vertically center menu */
+	-ms-transform: translateY(-50%); /* vertically center menu */
+	-o-transform: translateY(-50%); /* vertically center menu */
+}
+
+ul.fssnav li{
+  margin-bottom: 40px;
+}
+
+ul.fssnav li a{
+  text-decoration: none;
+  /*border: 5px solid white; /!* border color of nav links *!/*/
+  /*border-radius: 50%;*/
+  width: 30px; /* dimensions of nav links */
+  /*height: 10px;*/
+  display: block;
+	position: relative;
+  /*text-indent: -500px;*/
+	outline: none;
+  color: #04f9e3;
+  /*overflow: hidden;*/
+}
+ul.fssnav li.selected a{
+  color: #30b3f7;
+}
+ul.fssnav li:nth-of-type(1) a{
+  display: none;
+}
+ul.fssnav li a::after{ /* create "fill" element inside A */
+  content: "";
+  position: absolute;
+  width: 0px;
+  height:2px;
+  top: 50%;
+  left: -40px;
+  background: white; /* color of "fill" element */
+  transition: width 0.5s; /* transition for "fill up" effect */
+  overflow: hidden;
+  background: #30b3f7;
+}
+
+ul.fssnav li.selected a::after{
+  color:#30b3f7;
+  width: 30px; /* fill up selected A element from bottom to top */
+  overflow: visible;
+}
+ul.fssnav li:nth-of-type(1) a::after{ /* create "fill" element inside A */
+ display: none;
+}
+
+
+section.dd_fullscreenslider article.slide{ /* CSS for each slide */
+  width: 100%;
+  height: 100%;
+	display: block;
+	font-family: 'Lato', sans-serif; /* Use google font */
+
+
+
+  -webkit-box-sizing: border-box; /* include padding/ border as part of declared menu width */
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+
+	-webkit-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-moz-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-ms-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+	-o-transform: translate3d(0, 0, 0); /* to prevent flickering in iOS */
+}
+
+section.dd_fullscreenslider article.slide h2{ /* H2 Header inside each slide */
+	font-size: 3em;
+	margin: 0;
+	line-height: 1.1em;
+	letter-spacing: 3px;
+}
+
+section.dd_fullscreenslider article.slide .scrollable{ /* Assign this class to elements within a slide that should be scrollable */
+	overflow: auto;
+}
+
+section.dd_fullscreenslider article.slide a{
+	color: yellow;
+}
+
+
+section.dd_fullscreenslider div.closex{ /* Large x close button inside Slider */
+  width: 50px;
+  height: 50px;
+	overflow: hidden;
+  display: block;
+  position: fixed;
+  cursor: pointer;
+	text-indent: -1000px;
+	opacity: 0.8;
+  z-index: 1001;
+  top: 5px;
+  right: 3px;
+}
+
+section.dd_fullscreenslider div.closex::before, section.dd_fullscreenslider div.closex::after{ /* render large x inside close button */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  background: white; /* color of x button */
+  top: 50%;
+  margin-top: -3px;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+section.dd_fullscreenslider div.closex::after{ /* render large cross inside close button */
+  -ms-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
